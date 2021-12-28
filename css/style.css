@@ -76,7 +76,7 @@ button {
 .cd-nav-trigger .cd-icon::after {
   /* icon created in CSS */
   position: absolute;
-  background-color: #FFFFFF;
+  background-color: black;
   border-radius: 2px;
   /* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
@@ -135,10 +135,10 @@ button {
 }
 .cd-nav-trigger.project-open .cd-icon {
   /* user selects a projects - transform the icon into a 'X' */
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #ffffff(255, 255, 255, 0);
 }
 .cd-nav-trigger.project-open .cd-icon::before, .cd-nav-trigger.project-open .cd-icon::after {
-  background-color: white;
+  background-color: black;
 }
 .cd-nav-trigger.project-open .cd-icon::before {
   -webkit-transform: translateY(0) rotate(45deg);
@@ -219,7 +219,7 @@ button {
   -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
   transition: background 0.2s;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Playfair Display", serif;
   font-size: 2.4rem;
   font-weight: 700;
@@ -412,7 +412,7 @@ button {
   transform: translateX(-50%) translateY(-50%) scaleX(0);
   height: 1px;
   width: 60px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   -webkit-transition: -webkit-transform 0.2s;
   -moz-transition: -moz-transform 0.2s;
   transition: transform 0.2s;
@@ -421,19 +421,19 @@ button {
   background-color: #2978A0;
 }
 .single-project:nth-of-type(1) .cd-title::before {
-  background-image: url(../img/img-1.jpg);
+  background-image: url(../img/img-1.png);
 }
 .single-project:nth-of-type(2) .cd-title {
   background-color: #315659;
 }
 .single-project:nth-of-type(2) .cd-title::before {
-  background-image: url(../img/img-2.jpg);
+  background-image: url(../img/img-2.png);
 }
 .single-project:nth-of-type(3) .cd-title {
   background-color: #BCAB79;
 }
 .single-project:nth-of-type(3) .cd-title::before {
-  background-image: url(../img/img-3.jpg);
+  background-image: url(../img/img-3.png);
 }
 .single-project:nth-of-type(1) .cd-title::before, .single-project:nth-of-type(2) .cd-title::before, .single-project:nth-of-type(3) .cd-title::before {
   background-size: cover;
@@ -443,7 +443,7 @@ button {
   z-index: 1;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #FFFFFF;
+  color: rgb(250, 78, 236);
   font-family: "Playfair Display", serif;
   /* vertical align inside .cd-title */
   display: table-cell;
@@ -517,13 +517,13 @@ button {
   position: relative;
   z-index: 2;
   padding: 2em 0 3em;
-  background-color: #FFFFFF;
+  background-color: rgb(51, 45, 45);
 }
 .cd-project-info .content-wrapper > * {
   width: 90%;
   max-width: 800px;
   margin: 0 auto;
-  color: #253031;
+  color:#ffffff ;
 }
 .cd-project-info .content-wrapper p {
   margin-bottom: 2em;

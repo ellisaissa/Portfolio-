@@ -441,9 +441,9 @@ button {
 .cd-title h2 {
   position: relative;
   z-index: 1;
-  font-size: 2.5rem;
+  font-size: 50px;
   font-weight: 700;
-  color: rgb(250, 78, 236);
+  color: rgb(135, 135, 236);
   font-family: "Playfair Display", serif;
   /* vertical align inside .cd-title */
   display: table-cell;
@@ -487,7 +487,7 @@ button {
 }
 @media only screen and (min-width: 1170px) {
   .cd-title h2 {
-    font-size: 3.6rem;
+    font-size: 50px;
   }
 }
 

@@ -421,7 +421,7 @@ button {
   background-color: #2978A0;
 }
 .single-project:nth-of-type(1) .cd-title::before {
-  background-image: url(../img/img-1.png);
+  background-image: url(../img/img-1.jpg);
 }
 .single-project:nth-of-type(2) .cd-title {
   background-color: #315659;
@@ -443,7 +443,7 @@ button {
   z-index: 1;
   font-size: 50px;
   font-weight: 700;
-  color: rgb(135, 135, 236);
+  color: #ffffff;
   font-family: "Playfair Display", serif;
   /* vertical align inside .cd-title */
   display: table-cell;

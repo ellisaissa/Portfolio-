@@ -138,7 +138,7 @@ button {
   background-color: #ffffff;
 }
 .cd-nav-trigger.project-open .cd-icon::before, .cd-nav-trigger.project-open .cd-icon::after {
-  background-color: #ffffff;
+  background-color: black;
 }
 .cd-nav-trigger.project-open .cd-icon::before {
   -webkit-transform: translateY(0) rotate(45deg);

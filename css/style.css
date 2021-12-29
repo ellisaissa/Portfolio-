@@ -88,7 +88,7 @@ button {
   backface-visibility: hidden;
 }
 .no-touch .cd-nav-trigger:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #ffffff;
 }
 .cd-nav-trigger .cd-icon {
   /* middle line of the menu icon */
